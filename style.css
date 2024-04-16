@@ -49,7 +49,7 @@ a {
   justify-content: center;
   background-color: #fab8b8dc;
   width: 350px;
-  height: 50px;
+  height: 3rem;
   border-radius: 30px;
   border: 1px solid #b3b3b3;
 }
@@ -60,37 +60,7 @@ a {
   margin-top: 20px;
 }
 
-@media (max-width: 800px) {
-  .content-info {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 400px) {
-  h1 {
-    font-size: 18px;
-  }
-
-  h2 {
-    font-size: 16px;
-  }
-
-  h3 {
-    font-size: 14px;
-  }
-
-  p,
-  a {
-    font-size: 12px;
-  }
-
-  .box {
-    width: 100px;
-    height: 150px;
-  }
-
-  .card {
-    width: 260px;
-    height: 140px;
-  }
+.footer-icon {
+  width: 40px;
+  height: auto;
 }
