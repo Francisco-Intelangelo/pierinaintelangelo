@@ -1,57 +1,40 @@
-.body-landing {
+body {
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #1b1b1b;
-}
-
-.main-content {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  margin-top: 30px;
-}
-
-.box {
-  width: 150px;
-  height: 200px;
-  background-color: blue;
+  font-family: 'Poppins';
   color: #fff;
+  width: 100vw;
+  height: 100vh;
 }
 
-h2 {
-  margin: 0 auto;
-  padding: 40px 0 5px;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .content-info {
-  display: flex;
-  margin-top: 10px;
-  gap: 4rem;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #fab8b8;
-  background-image: linear-gradient(0deg, rgba(87, 87, 87, 0.7), rgba(87, 87, 87, 0.9)), url(bobesponja.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 350px;
-  height: 190px;
-  border-radius: 16px;
-  border: 1px solid #b3b3b3;
-  position: relative;
-}
-
-.btn-contact {
-  position: absolute;
-  right: 0;
-  bottom: 10%;
-  left: 0;
-  margin: auto;
+  display: grid;
+  margin-top: 30px;
+  gap: 2rem;
 }
 
 a {
@@ -59,16 +42,22 @@ a {
   color: #fff;
 }
 
-.footer {
+.card {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #fab8b8dc;
+  width: 350px;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid #b3b3b3;
 }
 
-.socials {
+.footer {
   display: flex;
-  gap: 2.5rem;
+  gap: 1rem;
+  margin-top: 20px;
 }
 
 @media (max-width: 800px) {
