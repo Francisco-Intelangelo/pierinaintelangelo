@@ -1,1 +1,1 @@
-![https://github.com/Francisco-Intelangelo](https://raw.githubusercontent.com/Francisco-Intelangelo/Francisco-Intelangelo/main/Francisco-Intelangelo_github_preview.jpg)
+![https://github.com/Francisco-Intelangelo](https://github.com/Francisco-Intelangelo/pierinaintelangelo/blob/main/preview.jpg)
