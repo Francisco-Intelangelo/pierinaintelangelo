@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 
 .content-info {
   display: grid;
-  margin-top: 30px;
+  margin-top: 50px;
   gap: 2rem;
 }
 
@@ -57,7 +57,7 @@ a {
 .footer {
   display: flex;
   gap: 1rem;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .footer-icon {
