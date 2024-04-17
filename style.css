@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   margin: 0;
 }
@@ -11,9 +13,8 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #1b1b1b;
-  font-family: 'Poppins';
-  color: #fff;
+  background-color: #ffffff;
+  color: #222222;
   width: 100vw;
   height: 100vh;
 }
@@ -26,9 +27,12 @@ body::-webkit-scrollbar {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
   border-radius: 50%;
+}
+
+.title {
+  font-family: 'Poppins';
 }
 
 .content-info {
@@ -38,8 +42,10 @@ body::-webkit-scrollbar {
 }
 
 a {
+  font-family: 'Poppins';
+  font-weight: 500;
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 }
 
 .card {
@@ -51,7 +57,7 @@ a {
   width: 350px;
   height: 3rem;
   border-radius: 30px;
-  border: 1px solid #b3b3b3;
+  box-shadow: 5px 3px 5px #2e2e2e;
 }
 
 .footer {
